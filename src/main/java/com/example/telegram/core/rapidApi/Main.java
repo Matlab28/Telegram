@@ -1,14 +1,16 @@
-package com.example.telegram.core.dashboard;
+package com.example.telegram.core.rapidApi;
 
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
+@EnableScheduling
 public class Main {
     public static void main(String[] args) {
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            botsApi.registerBot(new YourTelegramBot());
+            botsApi.registerBot(new Travel());
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
