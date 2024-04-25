@@ -14,7 +14,7 @@ public class AI extends ChatBot {
 
     public static String chatGPT(String message) {
         String url = "https://api.openai.com/v1/chat/completions";
-        String apiKey = "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";
+        String apiKey = "YOUR_API_KEY";
         String model = "gpt-3.5-turbo";
 
         try {
