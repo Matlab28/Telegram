@@ -18,12 +18,12 @@ public class PlayRsp extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "rsppGamee_bot";
+        return "YOUR_BOT_NAME";
     }
 
     @Override
     public String getBotToken() {
-        return "7027597111: -O5FtMf2LEOw2KzT0JDhf9nE";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
