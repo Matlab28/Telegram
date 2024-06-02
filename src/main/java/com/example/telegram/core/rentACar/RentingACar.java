@@ -32,12 +32,12 @@ public class RentingACar extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "yourMusicSongs_bot";
+        return "YOUR_BOT_NAME";
     }
 
     @Override
     public String getBotToken() {
-        return "6627982719:AAHlTAMMWAJmUr-8rDe4N_z0whUsloFdiwk";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
