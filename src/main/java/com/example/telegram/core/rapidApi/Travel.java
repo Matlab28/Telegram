@@ -19,9 +19,9 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 @Slf4j
 public class Travel extends TelegramLongPollingBot {
 
-    private static final String RAPID_API_KEY = "674678e122mshd00ec5b8f945302p1052bcjsn0ad69ed2af91";
+    private static final String RAPID_API_KEY = "YOUR_RAPID_API_KEY";
 
-    private static final String RAPID_API_KEY_FLIGHT = "674678e122mshd00ec5b8f945302p1052bcjsn0ad69ed2af91";
+    private static final String RAPID_API_KEY_FLIGHT = "YOUR_API_KEY";
 
     @Override
     public String getBotUsername() {
