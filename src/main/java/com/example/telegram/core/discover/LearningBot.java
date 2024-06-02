@@ -18,12 +18,12 @@ public class LearningBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "learning_teaching_bot";
+        return "YOUR_BOT_NAME";
     }
 
     @Override
     public String getBotToken() {
-        return "6999496765:AAFaYZpt8eeawcJlY2qRKMy3y_N7d85Hfok";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
