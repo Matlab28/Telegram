@@ -12,12 +12,12 @@ public class TravelingBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "playUnoGame_bot";
+        return "YOUR_BOT_USERNAME";
     }
 
     @Override
     public String getBotToken() {
-        return "6992258896:AAECi4glCoEwtXjHGT5dK9UCx-uR-pgNtDk";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
