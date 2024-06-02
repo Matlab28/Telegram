@@ -4,7 +4,7 @@ import lombok.Getter;
 
 @Getter
 public enum RapidApi {
-    RAPID_API_KEY("674678e122mshd00ec5b8f945302p1052bcjsn0ad69ed2af91");
+    RAPID_API_KEY("YOUR_RAPID_API_KEY");
 
     private String link;
 
