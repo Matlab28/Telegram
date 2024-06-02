@@ -18,12 +18,12 @@ public class MyShopBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "find_electronics_bot";
+        return "YOUR_BOT_USERNAME";
     }
 
     @Override
     public String getBotToken() {
-        return "7017841601:AAGKZjHlmHsxRw6pGpq-ssuHUP0EwzqoDTw";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
