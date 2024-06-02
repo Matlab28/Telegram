@@ -13,7 +13,7 @@ public class QuestionAnswerBot extends JFrame {
     private final JTextField questionField = new JTextField();
     private final JTextArea answerArea = new JTextArea();
     private final OkHttpClient client = new OkHttpClient();
-    private final String openAIKey = "sk-proj-EioiJbI1t24E9wVzrsdjT3BlbkFJopMZvA1tXvP63FFGDX3d";
+    private final String openAIKey = "YOUR_OPEN_AI_KEY";
 
     public QuestionAnswerBot() {
         JFrame frame = new JFrame();
