@@ -19,12 +19,12 @@ public class RecBook extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "MyBookRecommender_bot";
+        return "YOUR_BOT_USERNAME";
     }
 
     @Override
     public String getBotToken() {
-        return "6416078056:AAHpKEvBo0DxMep8YghQcsnDFhSTPexjHwM";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
