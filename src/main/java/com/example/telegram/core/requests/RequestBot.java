@@ -18,12 +18,12 @@ public class RequestBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "demandingRequests_bot";
+        return "YOUR_BOT_NAME";
     }
 
     @Override
     public String getBotToken() {
-        return "6722102311:AAE4wmtCRAzKt3MdaroZPB6rQwXg4qggQQM";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
