@@ -19,12 +19,12 @@ public class Guessing extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "guesssNumber_bot";
+        return "YOUR_BOT_USERNAMAE";
     }
 
     @Override
     public String getBotToken() {
-        return "7018040278:AAGM69dNsb7jTpyT2YkQZDIAcPsBRS_NXKY";
+        return "YOUR_BOT_TOKEN";
     }
 
     @Override
